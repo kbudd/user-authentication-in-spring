@@ -10,6 +10,11 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
+/**
+ * Created by kylebudd on 9/13/17.
+ */
+@Entity
+public class User implements UserDetails{
 @Entity
 public class User implements UserDetails {
     @Id

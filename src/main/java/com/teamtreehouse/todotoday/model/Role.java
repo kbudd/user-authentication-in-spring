@@ -5,6 +5,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
+/**
+ * Created by kylebudd on 9/13/17.
+ */
 @Entity
 public class Role {
     @Id
